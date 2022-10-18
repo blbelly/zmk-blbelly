@@ -26,7 +26,7 @@
 		};
 		one {
 			//EASE OUT | PRE-COMPOSE | EASE IN
-			bindings = <&kp LC(LS(F9)) &lt 4 LC(LS(C)) &kp (LS(F9)>;
+			bindings = <&kp LC(LS(F9)) &lt 4 LC(LS(C)) &kp LS(F9)>;
 			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
 			ledoverride;
 			r = <120>;
