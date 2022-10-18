@@ -25,29 +25,29 @@
 			// DEFAULT-MEDIA
 		};
 		one {
-			//EASE IN | PRE-COMPOSE | EASE OUT
-			bindings = <&kp LS(F9) &lt 4 LC(LS(C)) &kp LC(LS(F9))>;
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+			//EASE OUT | PRE-COMPOSE | EASE IN
+			bindings = <&kp LC(LS(F9)) &lt 4 LC(LS(C)) &kp (LS(F9)>;
+			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
 			ledoverride;
-			r = <153>;
-			g = <153>;
+			r = <120>;
+			g = <50>;
 			b = <255>;
 			// AFTER EFFECTS
 		};
 		two {
 			//CUT | COPY | PASTE
-			bindings = <&kp K_CUT &lt 4 K_COPY &kp K_PASTE>;
-			sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
+			bindings = <&kp LC(X) &lt 4 LC(C) &kp LC(V)>;
+			sensor-bindings = <&inc_dec_kp LC(EQUAL) LC(MINUS)>;
 			ledoverride;
 			r = <255>;
 			g = <255>;
-			b = <255>;
+			b = <0>;
 			// GENERAL
 		};
 		three {
 			//BRUSH | ERASER | MARQUEE
 			bindings = <&kp B &lt 4 E &kp M>;
-			sensor-bindings = <&inc_dec_kp LEFT_BRACKET RIGHT_BRACKET>;
+			sensor-bindings = <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET>;
 			ledoverride;
 			r = <49>;
 			g = <168>;
